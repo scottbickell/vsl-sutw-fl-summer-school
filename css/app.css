@@ -331,6 +331,10 @@ p.pointer {
   margin: 0 20px;
   color: #ffffff; }
 
+p.whitecopy {
+  color: #ffffff;
+  text-align: center; }
+
 .footer {
   background: #4a4f55; }
 
