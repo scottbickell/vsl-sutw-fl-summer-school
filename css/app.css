@@ -209,18 +209,18 @@ p {
   Margin-bottom: 16px; }
 
 a {
-  color: #005587;
+  color: #ffbf3d;
   text-decoration: none; }
   a:hover {
-    color: #003554; }
+    color: #ffae0a; }
   a:active {
-    color: #003554; }
+    color: #ffae0a; }
   a:visited {
-    color: #005587; }
+    color: #ffbf3d; }
 
 h1 a,
 h1 a:visited {
-  color: #005587; }
+  color: #ffbf3d; }
 
 span.invisible-previewline {
   display: none !important;
@@ -241,7 +241,7 @@ table.button {
   table.button table td {
     text-align: left;
     color: #fefefe;
-    background: #005587;
+    background: #ffbf3d;
     border: 0; }
     table.button table td a {
       font-family: sans-serif;
@@ -251,7 +251,7 @@ table.button {
       text-decoration: none;
       display: inline-block;
       padding: 8px 16px 8px 16px;
-      border: 0 solid #005587;
+      border: 0 solid #ffbf3d;
       border-radius: 3px; }
   table.button.radius table td {
     border-radius: 3px;
@@ -265,13 +265,13 @@ table.button table tr td a:visited {
 table.button:hover table td,
 table.button:visited table td,
 table.button:active table td {
-  background: #003554;
+  background: #ffae0a;
   color: #fefefe; }
 
 table.button:hover table a,
 table.button:visited table a,
 table.button:active table a {
-  border: 0 solid #003554; }
+  border: 0 solid #ffae0a; }
 
 table.button.success table td {
   background: #009bdf;
@@ -337,10 +337,10 @@ h2 {
 p.pointer {
   text-align: center;
   margin: 0 20px;
-  color: #ffffff; }
+  color: #005587; }
 
-p.whitecopy {
-  color: #ffffff;
+p.blue {
+  color: #005587;
   text-align: center; }
 
 .footer {
