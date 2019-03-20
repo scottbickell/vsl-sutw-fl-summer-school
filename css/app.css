@@ -173,7 +173,7 @@ td,
 th,
 a {
   color: #0a0a0a;
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: sans-serif;
   font-weight: normal;
   padding: 0;
   margin: 0;
@@ -185,7 +185,7 @@ h1,
 h2 {
   color: inherit;
   word-wrap: normal;
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: sans-serif;
   font-weight: normal;
   margin-bottom: 10px;
   Margin-bottom: 10px; }
@@ -209,14 +209,18 @@ p {
   Margin-bottom: 16px; }
 
 a {
-  color: #ffbf3d;
+  color: #005587;
   text-decoration: none; }
   a:hover {
-    color: #ffae0a; }
+    color: #003554; }
   a:active {
-    color: #ffae0a; }
+    color: #003554; }
   a:visited {
-    color: #ffbf3d; }
+    color: #005587; }
+
+h1 a,
+h1 a:visited {
+  color: #005587; }
 
 span.invisible-previewline {
   display: none !important;
@@ -237,17 +241,17 @@ table.button {
   table.button table td {
     text-align: left;
     color: #fefefe;
-    background: #ffbf3d;
+    background: #005587;
     border: 0; }
     table.button table td a {
-      font-family: "Open Sans", Arial, sans-serif;
+      font-family: sans-serif;
       font-size: 16px;
       font-weight: bold;
       color: #fefefe;
       text-decoration: none;
       display: inline-block;
       padding: 8px 16px 8px 16px;
-      border: 0 solid #ffbf3d;
+      border: 0 solid #005587;
       border-radius: 3px; }
   table.button.radius table td {
     border-radius: 3px;
@@ -261,13 +265,13 @@ table.button table tr td a:visited {
 table.button:hover table td,
 table.button:visited table td,
 table.button:active table td {
-  background: #ffae0a;
+  background: #003554;
   color: #fefefe; }
 
 table.button:hover table a,
 table.button:visited table a,
 table.button:active table a {
-  border: 0 solid #ffae0a; }
+  border: 0 solid #003554; }
 
 table.button.success table td {
   background: #009bdf;
@@ -314,11 +318,15 @@ table.button.success:hover table a {
   background: #009bdf; }
 
 h1 {
-  font-size: 34px;
+  font-size: 28px;
   line-height: 40px;
   color: #005587;
   text-align: center;
   font-weight: 300; }
+
+h1 a {
+  text-decoration: none;
+  color: #005587; }
 
 h2 {
   font-size: 18px;
@@ -339,16 +347,16 @@ p.whitecopy {
   background: #4a4f55; }
 
 .footer p {
-  color: #ffffff;
+  color: #ffffff !important;
   font-size: 10px; }
 
 .footer a {
-  color: #ffffff;
+  color: #ffffff !important;
   text-decoration: none;
   font-weight: normal; }
 
 .footer a:hover {
-  color: #ffffff; }
+  color: #ffffff !important; }
 
 .unsubscribe {
   background: #f3f3f3; }
